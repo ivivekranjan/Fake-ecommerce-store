@@ -1,4 +1,4 @@
-# Fake E-Commerce Store API Automation
+# E-Commerce Store API Automation
 
 This is an **API Test Automation Framework** built for a fake e-commerce store application.  
 The framework is implemented using **Rest Assured + TestNG + Maven** with reusable utilities, schema validation, retry mechanism, and reporting.
