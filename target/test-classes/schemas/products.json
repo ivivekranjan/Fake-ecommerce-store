@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ProductsArray",
+  "type": "array",
+  "items": { "$ref": "product.json" },
+  "minItems": 1
+}

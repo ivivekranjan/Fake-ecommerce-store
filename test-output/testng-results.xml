@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T23:35:00 IST" name="FakeStore API Suite" finished-at="2025-08-19T23:35:20 IST" duration-ms="19991">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T23:35:00 IST" name="Smoke" finished-at="2025-08-19T23:35:20 IST" duration-ms="19991">
+      <class name="tests.EndToEndFlowTest">
+        <test-method signature="userBrowsesProduct_addsToCart_placesCart()[pri:0, instance:tests.EndToEndFlowTest@183ec003]" started-at="2025-08-19T23:35:15 IST" name="userBrowsesProduct_addsToCart_placesCart" finished-at="2025-08-19T23:35:20 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userBrowsesProduct_addsToCart_placesCart -->
+      </class> <!-- tests.EndToEndFlowTest -->
+      <class name="tests.AuthTests">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.AuthTests@5b247367]" started-at="2025-08-19T23:34:59 IST" name="setUpSuite" finished-at="2025-08-19T23:35:00 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method signature="login_shouldReturnToken()[pri:0, instance:tests.AuthTests@5b247367]" started-at="2025-08-19T23:35:00 IST" name="login_shouldReturnToken" finished-at="2025-08-19T23:35:07 IST" duration-ms="6205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_shouldReturnToken -->
+      </class> <!-- tests.AuthTests -->
+      <class name="tests.CartTests">
+        <test-method signature="createCart_shouldSucceed_andMatchSchema()[pri:0, instance:tests.CartTests@7c137fd5]" started-at="2025-08-19T23:35:13 IST" name="createCart_shouldSucceed_andMatchSchema" finished-at="2025-08-19T23:35:14 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCart_shouldSucceed_andMatchSchema -->
+        <test-method signature="getCartById_shouldReturnCart()[pri:0, instance:tests.CartTests@7c137fd5]" started-at="2025-08-19T23:35:14 IST" name="getCartById_shouldReturnCart" finished-at="2025-08-19T23:35:15 IST" depends-on-methods="tests.CartTests.createCart_shouldSucceed_andMatchSchema" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCartById_shouldReturnCart -->
+      </class> <!-- tests.CartTests -->
+      <class name="tests.ProductTests">
+        <test-method signature="getAllProducts_shouldReturnList_andMatchSchema()[pri:0, instance:tests.ProductTests@6440112d]" started-at="2025-08-19T23:35:07 IST" name="getAllProducts_shouldReturnList_andMatchSchema" finished-at="2025-08-19T23:35:09 IST" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProducts_shouldReturnList_andMatchSchema -->
+        <test-method signature="getProductById_shouldReturnSingle_andMatchSchema()[pri:0, instance:tests.ProductTests@6440112d]" started-at="2025-08-19T23:35:09 IST" name="getProductById_shouldReturnSingle_andMatchSchema" finished-at="2025-08-19T23:35:13 IST" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById_shouldReturnSingle_andMatchSchema -->
+      </class> <!-- tests.ProductTests -->
+    </test> <!-- Smoke -->
+  </suite> <!-- FakeStore API Suite -->
+</testng-results>
